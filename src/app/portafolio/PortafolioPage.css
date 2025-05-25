@@ -1,0 +1,21 @@
+
+
+.portfolio-columns {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.column {
+  flex: 1;
+  
+}
+
+/* En pantallas grandes: dos columnas una al lado de la otra */
+@media (min-width: 768px) {
+  .portfolio-columns {
+    flex-direction: row;
+    
+  }
+}
+

@@ -15,7 +15,7 @@ export default function TexturedSection({
   text,
   backgroundColor = "#4a2d5e", // Color morado oscuro
   textColor = "#ffffff",
-  arrowWidth = 20, // Porcentaje del ancho total que ocupará la flecha
+  arrowWidth = 10, // Porcentaje del ancho total que ocupará la flecha
 }: TexturedSectionProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
 
@@ -110,7 +110,7 @@ export default function TexturedSection({
         {/* Contenido */}
         <h1
           style={{
-            fontSize: "2.5rem",
+            fontSize: "1.8rem",
             fontWeight: "bold",
             marginBottom: "1.5rem",
             letterSpacing: "0.05em",
@@ -121,7 +121,7 @@ export default function TexturedSection({
         </h1>
         <p
           style={{
-            fontSize: "1.1rem",
+            fontSize: "0.95remrem",
             lineHeight: "1.6",
             maxWidth: "90%",
           }}

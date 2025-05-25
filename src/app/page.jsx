@@ -1,5 +1,6 @@
 "use client"
 
+import "./globals.css"
 import { useRouter } from "next/navigation"
 import { useState } from "react"
 import Image from "next/image"
